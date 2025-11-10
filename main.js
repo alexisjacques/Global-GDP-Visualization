@@ -1182,3 +1182,10 @@ d3.select('#countryPicker').on('mousedown', (event) => {
         });
     });
 });
+
+// Clear Graph button functionality
+d3.select('#clearGraph').on('click', () => {
+    selected.clear();
+    syncPickerFromSet();
+    render();
+});
