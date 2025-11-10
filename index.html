@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <title> Interactive Graph</title>
+
+</head>
+
+<body>
+    <h1> Global GDP Growth: An Interactive Visualization</h1>
+
+    <h2>Description</h2>
+    <p>This interactive visualization intends to compare the GDP per capita across different countries from years
+        1960–2020. It highlights the economic growth patterns, major events such as the 2008 global recession, and
+        country-specific events as well such as Rwandan Genocide.
+        Users can select corresponding countries and regions via the selection box to explore how the regional economies
+        have evolved from 1960-2020. The Y axis will change accordingly for ease of view. The user can deselect as well
+        via the selection box,
+        or by clicking on the line in the line graph. </p>
+    <h2>Interactive Graph</h2>
+    <script src="main.js" type="module"></script>
+    <h3>Select Some Countries:</h3>
+    <select id="countryPicker" multiple size="20"></select>
+    <div id="chart"></div>
+    <div id="tooltip" style="top:-999px;"></div> <!-- Adding big margins here to hide the initial box -->
+
+</body>
+
+</html>

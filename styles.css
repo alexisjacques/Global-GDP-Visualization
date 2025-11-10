@@ -1,0 +1,48 @@
+body {
+    font: 100%/1.5 Roboto;
+    max-width: 140ch;
+    margin-inline: max(1em, (100% - 140ch) / 2);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.team {
+    font-size: 1em;
+}
+
+#chart {
+    aspect-ratio: 3 / 2;
+    margin-bottom: -4em;
+}
+
+.gridlines line {
+    stroke-width: 0.2px;
+}
+
+h3 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+
+#countryPicker {
+    display: inline-block;
+    margin-top: 20px;
+    width: 300px;
+    font-size: 14px;
+}
+
+#tooltip {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 4px;
+    font-size: 10px;
+    padding: 2px 4px;
+}
